@@ -46,13 +46,19 @@ nav ul li a {
     text-decoration: none;
     color: #9C9C9C;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 16px;
+    font-size: 14.5px;
     transition: color 0.2s;
 }
 
 nav ul li a:hover {
     color: #62BA1B;
     text-decoration: underline;
+}
+
+nav ul li a.active {
+    color: #62BA1B;      
+    text-decoration: underline;
+    font-weight: 600;     
 }
 
 .social-icons {
@@ -115,10 +121,6 @@ nav ul li a:hover {
 
   .hamburger {
     display: flex;
-  }
-
-  .social-icons {
-    display: none;
   }
 }
 
@@ -305,6 +307,10 @@ button {
         gap: 15px;
     }
 
+    nav ul li a {
+        font-size: 16px; 
+    }
+
     .social-icons {
         margin-left: 0;
         justify-content: center;
@@ -315,7 +321,7 @@ button {
     }
 
     .info p {
-        font-size: 14px;
+        font-size: 15px;
         max-width: 90%;
         text-align: center;
     }
@@ -325,8 +331,13 @@ button {
         height: 180px;
     }
 
-    button, .download-btn {
-        font-size: 14px;
+    .download-btn {
+        font-size: 16px;
+        padding: 10px 18px;
+    }
+
+    button {
+        font-size: 15px;
         padding: 10px 18px;
     }
 
