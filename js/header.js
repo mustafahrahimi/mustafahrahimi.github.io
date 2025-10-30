@@ -13,15 +13,15 @@ document.addEventListener("DOMContentLoaded", () => {
     // ----- Highlight current page link -----
     const highlightCurrentPage = () => {
         const navItems = document.querySelectorAll('.nav-links li a');
-        const currentPage = window.location.pathname.split("/").pop() || "index.html";
+        const currentPage = (window.location.pathname.split("/").pop() || "index.html").toLowerCase();
 
         navItems.forEach(link => {
-        const linkPage = link.getAttribute('href').split("/").pop();
-        if (linkPage.toLowerCase() === currentPage.toLowerCase()) {
+        const linkPage = (link.getAttribute('href').split("/").pop() || "index.html").toLowerCase();
+        if (linkPage === currentPage) {
             link.classList.add('active');
         }
         });
     };
 
-    highlightCurrentPage();
+    highlightCurrentPage(); 
 });
