@@ -76,6 +76,64 @@ nav ul li a:hover {
     color: white; 
 }
 
+/* Hamburger menu button */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 25px;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.hamburger span {
+    background: #62BA1B;
+    height: 3px;
+    width: 100%;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+    .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #1B1B1B;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .social-icons {
+    display: none;
+  }
+}
+
+/* Hamburger animation when active */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translateY(8px);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-8px);
+}
+
+
 /* Main content styling */
 main {
     flex: 1;
@@ -153,7 +211,7 @@ button {
     width: 225px;
     height: 225px;
     object-fit: cover;
-    border-radius: 50% 40% 50% 40%; /* irregular organic shape */
+    border-radius: 50% 40% 50% 40%; 
     border: 1.5px solid #62BA1B;
     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
 }
@@ -194,4 +252,123 @@ button {
 .certificates .buttons button:hover {
     border-color: #fff;
     box-shadow: 0 0 10px #fff;
+}
+
+/* -------- RESPONSIVE DESIGN -------- */
+
+/* Tablets and smaller laptops */
+@media (max-width: 1024px) {
+    header {
+        width: calc(100% - 60px);
+        margin: 0 30px;
+        padding: 20px;
+    }
+
+    nav ul {
+        gap: 25px;
+    }
+
+    .intro {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .info {
+        text-align: center;
+    }
+
+    .photo img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .certificates {
+        text-align: center;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 600px) {
+    header {
+        width: calc(100% - 20px);
+        margin: 0 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .social-icons {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .info h1 {
+        font-size: 28px;
+    }
+
+    .info p {
+        font-size: 14px;
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .photo img {
+        width: 180px;
+        height: 180px;
+    }
+
+    button, .download-btn {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+
+    .certificates .buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .photo {
+    order: 1;
+    margin-top: 24px;
+    margin-bottom: 0px;
+  }
+
+  .info {
+    order: 2    ;
+  }
+
+  .info h1,
+  .info p {
+    text-align: center;
+  }
+
+  .info p {
+    max-width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  .download-btn {
+    margin: 0 auto;
+  }
+
+  .photo img {
+    width: 165px;
+    height: 165px;
+  }
 }
