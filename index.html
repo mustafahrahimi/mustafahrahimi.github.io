@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafah Rahimi - Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Get to know me</a></li>
+                <li><a href="#">Tools I use</a></li>
+                <li><a href="#">Get in touch</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/mustafah-rahimi-9976b3247/" target="_blank">
+                <i class="fab fa-linkedin fa-lg"></i>
+                </a>
+
+                <a href="https://github.com/mustafahrahimi" target="_blank">
+                <i class="fab fa-github fa-lg"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro">
+            <div class="info">
+                <h1>Mustafah Rahimi</h1>
+                <p>Recent graduate with a Bachelor’s degree in Computer Engineering who enjoys diving into details, understanding things deeply, and solving real-world problems.</p>
+                <button class="download-btn" onclick="downloadResume()">
+                    Download Resumé 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
+                        <path d="M5 20h14v-2H5v2zm7-18v12l4-4h-3V4h-2v6H8l4 4z"/>
+                        </svg>
+                </button>
+            </div>
+            <div class="photo">
+                <img src="/imgs/Profile.jpg" 
+                alt="Mustafah Rahimi">
+            </div>
+        </div>
+
+        <div class="certificates">
+            <h2>Certificates & Reports</h2>
+            <div class="buttons">
+                <button onclick="openFile('docs/degree-certificate.pdf')">
+                    Degree Certificate 
+                    <i class="fa-regular fa-file-pdf"></i>
+                </button>
+
+                <button onclick="openFile('docs/thesis-report.pdf')">
+                    Thesis Report 
+                    <i class="fa-regular fa-file-pdf"></i>
+                </button>
+
+                <button onclick="openFile('docs/work-certificate-kau.pdf')">
+                    Work Certificate 
+                    <i class="fa-regular fa-file-pdf"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
