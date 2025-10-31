@@ -62,7 +62,7 @@ nav ul li a.active {
 }
 
 .social-icons {
-    margin-left: 60px;
+    margin-left: 100px;
     display: flex;
     gap: 25px;
 }
@@ -106,13 +106,13 @@ nav ul li a.active {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 0;
     width: 100%;
     background-color: #1B1B1B;
     padding: 20px 0;
     text-align: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    /* border-top: 1px solid rgba(255, 255, 255, 0.2); */
   }
 
   .nav-links.active {
@@ -138,10 +138,10 @@ nav ul li a.active {
 
 /* Main content styling */
 main {
+    margin-top: 124px;
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
     align-items: center; 
     padding: 40px;
     text-align: center;
@@ -149,8 +149,8 @@ main {
 
 .intro {
     display: flex;
-    gap: 60px;
-    align-items: center;
+    gap: 100px;
+    align-items: flex-start;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -164,9 +164,33 @@ main {
 }
 
 .info h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 36px;
-    margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #62BA1B;
+  width: 0;
+  animation: typing 1.5s steps(10) forwards, blink 0.75s step-end 0s 4;
+}
+
+@keyframes typing {
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: #62BA1B;
+  }
+}
+
+.info h1.finished {
+  border-right: none;
 }
 
 .info p {
@@ -177,7 +201,31 @@ main {
     color: #c0c0c0;
 }
 
+.link-story {
+    text-decoration: none;        
+    color: #62BA1B;     
+    position: relative;         
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+.link-story::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: #62BA1B;
+  transition: width 0.3s ease;
+}
+
+.link-story:hover::after {
+  width: 100%;
+}
+
 button {
+    margin-top: 10px;
     padding: 12px 24px;
     border: none;
     color: #fff;
@@ -211,21 +259,34 @@ button {
 
 .photo img {
     width: 225px;
-    height: 225px;
+    height: 225px;  
     object-fit: cover;
     border-radius: 50% 40% 50% 40%; 
     border: 1.5px solid #62BA1B;
     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
 }
 
+.about-photo img {
+    width: 254px;
+    height: 254px;
+    object-fit: cover;
+    border-radius: 50% 40% 50% 40%; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.about-photo img:hover {
+    transform: scale(1.05) rotate(3deg);
+}
+
+
 /* Certificates styling */
 .certificates {
-    margin-top: 60px;
+    margin-top: 100px;
     text-align: left;
 }
 
 .certificates h2 {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -246,7 +307,8 @@ button {
 .certificates .buttons button {
     background-color: transparent;
     color: #fff;
-    border: 2px solid rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
     backdrop-filter: blur(5px);
     transition: all 0.3s;
 }
@@ -254,6 +316,38 @@ button {
 .certificates .buttons button:hover {
     border-color: #fff;
     box-shadow: 0 0 10px #fff;
+}
+
+.separator {
+    border: none;       
+    width: calc(100% - 120px);  
+    height: 1px;           
+    background-color: #1B1B1B; 
+    margin: 20px 0;      
+}
+
+footer {
+  text-align: center;
+  padding: 25px 0;
+  color: #9C9C9C;
+  font-family: 'IBM Plex Mono', monospace;
+  border-top: 0px solid rgba(255, 255, 255, 0.1);
+  margin-top: auto;
+}
+
+footer p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    margin: 0;
+}
+
+footer .fa-heart {
+  color: #62BA1B;
+  transition: transform 0.3s ease;
+}
+
+footer .fa-heart:hover {
+  transform: scale(1.2);
 }
 
 /* -------- RESPONSIVE DESIGN -------- */
@@ -316,19 +410,40 @@ button {
         justify-content: center;
     }
 
+    main {
+        margin-top: 50px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        padding: 40px;
+        text-align: center;
+    }
+
+
     .info h1 {
         font-size: 28px;
     }
 
     .info p {
-        font-size: 15px;
+        font-size: 0.95rem;
         max-width: 90%;
         text-align: center;
     }
 
     .photo img {
+        margin-top: 25px;
         width: 180px;
         height: 180px;
+    }
+
+    .about-photo img {
+        width: 225px;
+        height: 225px;
+        margin-top: 0px;
+        object-fit: cover;
+        border-radius: 50% 40% 50% 40%; 
+        box-shadow: 0 10px 25px rgba(0,0,0,0.5);
     }
 
     .download-btn {
@@ -341,10 +456,25 @@ button {
         padding: 10px 18px;
     }
 
+    .certificates {
+        margin-top: 80px;
+        text-align: left;
+    }
+
     .certificates .buttons {
         flex-direction: column;
         gap: 15px;
     }
+
+    .separator {
+        border: none;       
+        width: 100%;  
+        height: 1px;           
+        background-color: #9C9C9C; 
+        opacity: 60%;
+        margin: 20px 0;      
+    }
+
 }
 
 @media (max-width: 900px) {

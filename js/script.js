@@ -12,4 +12,13 @@ function downloadResume() {
     document.body.removeChild(link);
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+  const name = document.querySelector(".info h1");
+  name.addEventListener("animationend", (e) => {
+    if (e.animationName === "typing") {
+      name.classList.add("finished");
+    }
+  });
+});
+
   
