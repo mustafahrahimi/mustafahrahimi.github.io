@@ -17,8 +17,8 @@ body {
 
 /* Navbar styling */
 header {
-    width: calc(100% - 600px);
-    margin: 0 300px;
+    width: calc(100% - 400px);
+    margin: 0 200px;
     padding: 30px 30px;
     display: flex;
     justify-content: center; 
