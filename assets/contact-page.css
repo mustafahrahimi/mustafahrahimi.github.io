@@ -1,0 +1,205 @@
+.contact-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-intro-txt {
+    max-width: 810px;
+    margin: 0px auto 0px; 
+    padding: 20px 25px; 
+    padding-top: 0px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-intro-txt p {
+    line-height: 1.6;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    color: #c0c0c0;
+}
+
+.contact-info:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.6);
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.contact-card {
+    background-color: #1B1B1B;
+    padding: 30px 25px;
+    border-radius: 2px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    flex: 1 1 400px;
+    min-width: 400px;
+    text-align: left;
+}
+
+.contact-card h2 {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+.info-card p {
+    line-height: 1.8;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 15.5px;
+    color: #c0c0c0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.phone {
+    margin: 2px 0px;
+}
+
+.fa-phone {
+    color: #62BA1B;
+}
+
+.fa-envelope {
+    color: #62BA1B;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.4);
+    background-color: #18181B;
+    color: #fff;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #c0c0c0;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #62BA1B;
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3F8E00;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #62BA1B;
+    box-shadow: 0 0 8px #62BA1B;
+}
+
+/* 🌐 Responsive Design */
+@media (max-width: 900px) {
+.contact-intro {
+    max-width: 95%;
+    min-width: 0;                
+    display: block;               
+    overflow-wrap: anywhere;     
+    word-break: break-word;      
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+.contact-intro h1 {
+    display: block;               
+    white-space: normal !important; 
+    overflow-wrap: anywhere;     
+    word-break: break-word;      
+    max-width: 100%;
+    min-width: 0;                 
+    line-height: 1.15;
+    font-size: clamp(1.2rem, 5vw, 1.8rem); 
+    text-align: center;           
+    margin: 0.4em auto;
+}
+
+.contact-section {
+    padding: 40px 15px;
+}
+
+.contact-container {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.contact-card {
+    min-width: unset;
+    width: 325px;
+    max-width: 95%;
+    padding: 25px 20px;
+}
+
+.contact-card h2 {
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+.info-card {
+   max-height: 200px;
+}
+
+.info-card p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-size: 15px;
+    padding: 10px 14px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 14px;
+    font-size: 15px;
+}
+
+.contact-intro-txt {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.contact-intro-txt p {
+    text-align: left;
+    max-width: 95%;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.8;
+}
+}

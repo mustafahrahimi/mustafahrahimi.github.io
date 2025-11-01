@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/contact-page.css">
 </head>
 <body>
     <header>
@@ -39,8 +40,58 @@
             <span></span>
             </div>
         </nav>
-    </header> 
+    </header>
+    <main>
+        <section class="contact-intro">
+            <div class="info">
+                <h1>
+                    Good things start with great connections. 🤝
+                </h1>
+            </div>
+            <div class="contact-intro-txt">
+                <p>
+                    I’m open to new opportunities and would love to hear from you! Whether it’s a project collaboration, 
+                    a job opportunity, or just a friendly hello, feel free to reach out.
+                </p>
+            </div>
+        </section>
+        <section class="contact-section">
+            <div class="contact-container">
+                <!-- Contact Info Card -->
+                <div class="contact-card info-card">
+                    <h2>Let’s Chat! 😊</h2>
+                    <p class="phone"><i class="fa-solid fa-phone"></i> +46 760 055 856</p>
+                    <p class="email"><i class="fa-solid fa-envelope"></i> mustafahrahimii@gmail.com</p>
+                </div>
+
+                <!-- Contact Form Card -->
+                <div class="contact-card form-card">
+                    <h2>Say Hello! 👋</h2>
+                    <form 
+                        class="contact-form" 
+                        action="https://formsubmit.co/musisteam@gmail.com"
+                        method="POST" 
+                    >
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                        <button type="submit">Tap to Talk</button>
+
+                        <input type="hidden" name="_subject" value="Someone reaching out...">
+                        <input type="hidden" name="_captcha" value="true">
+                        <input type="hidden" name="_next" value="https://mustafahrahimi.github.io/thank-you.html">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+<footer>
+    <p>
+        <span style="font-size: 13px; color: #62BA1B; font-style: italic;">©</span> 
+        <span style="font-style: italic;">2025 mustafahrahimi</span> 
+    </p>
+</footer>
 <script src="js/header.js"></script>
 <script src="js/script.js"></script>
 </html>

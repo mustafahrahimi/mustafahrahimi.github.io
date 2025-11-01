@@ -12,6 +12,18 @@ function downloadResume() {
     document.body.removeChild(link);
 }
 
+window.addEventListener('load', () => {
+    const span = document.getElementById('open-btn');
+
+    setTimeout(() => {
+        span.classList.add('shake');
+
+        span.addEventListener('animationend', () => {
+            span.classList.remove('shake');
+        });
+    }, 3000);
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   const name = document.querySelector(".info h1");
   name.addEventListener("animationend", (e) => {
