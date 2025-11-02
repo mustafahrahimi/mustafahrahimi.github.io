@@ -198,7 +198,7 @@ main {
     margin-bottom: 20px;
     line-height: 1.6;
     font-size: 15px;
-    color: #c0c0c0;
+    color: #E5E7EB;
 }
 
 .link-story {
@@ -507,6 +507,7 @@ footer .fa-heart:hover {
 }
 
 .info p {
+    color: #E5E7EB;
     max-width: 450px;
     line-height: 1.8;
     margin: 0 auto 20px;

@@ -17,7 +17,7 @@
     line-height: 1.6;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
-    color: #c0c0c0;
+    color: #E5E7EB;;
 }
 
 .contact-info:hover {
@@ -60,7 +60,7 @@
     line-height: 1.8;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 15.5px;
-    color: #c0c0c0;
+    color: #E5E7EB;
 }
 
 .contact-form {
@@ -176,6 +176,11 @@
     text-align: left;
     font-size: 15px;
     line-height: 1.7;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.phone {
     color: #fff;
     text-decoration: none;
 }
