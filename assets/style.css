@@ -38,15 +38,15 @@ nav {
 
 nav ul {
     display: flex;
-    gap: 45px;
+    gap: 60px;
     list-style: none;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #9C9C9C;
+    color: #E5E7EB;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 14.5px;
+    font-size: 15px;
     transition: color 0.2s;
 }
 
@@ -112,7 +112,6 @@ nav ul li a.active {
     background-color: #1B1B1B;
     padding: 20px 0;
     text-align: center;
-    /* border-top: 1px solid rgba(255, 255, 255, 0.2); */
   }
 
   .nav-links.active {
@@ -166,6 +165,7 @@ main {
 .info h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 36px;
+  font-weight: 600;
   margin-bottom: 20px;
   overflow: hidden;
   white-space: nowrap;
@@ -207,6 +207,8 @@ main {
     position: relative;         
     transition: color 0.3s ease, transform 0.3s ease;
     display: inline-block;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .link-story::after {
@@ -243,18 +245,63 @@ button {
     font-size: 16px;
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     transition: all 0.3s;
     border-radius: 4px;
 }
 
-.download-btn svg {
-    vertical-align: middle;
+.fa-chevron-down {
+    font-size: 12px;
+}
+
+.fa-arrow-down {
+    font-size: 12px;
 }
 
 .download-btn:hover {
     background-color: #62BA1B; 
     box-shadow: 0 0 2px #62BA1B;
+}
+
+.download-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #3F8E00; 
+    border: 1px solid #62BA1B; 
+    color: #fff;
+    transition: all 0.3s;
+    top: 110%;
+    border-radius: 4px;
+    z-index: 5;
+    overflow: hidden;
+    min-width: 100%;
+}
+
+.dropdown a {
+    display: block;
+    padding: 8px 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    color: #fff;
+    transition: background-color 0.2s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dropdown a:hover {
+    background-color: #62BA1B;
+    box-shadow: 0 0 2px #62BA1B;
+    border-radius: 4px;
+}
+
+.show {
+    display: block;
 }
 
 .photo img {
@@ -511,11 +558,23 @@ footer .fa-heart:hover {
     max-width: 450px;
     line-height: 1.8;
     margin: 0 auto 20px;
-    padding: 0 20px;
+    padding: 0 25px;
 }
 
 .download-btn {
     margin-top: 10px;
+}
+
+.dropdown {
+    position: static;
+    top: 110%; 
+    margin-top: 5px;
+    min-width: 100%;
+}
+
+.dropdown a {
+    padding: 10px 0;
+    font-size: 15px;
 }
 
 .photo img {

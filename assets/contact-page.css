@@ -1,14 +1,12 @@
 .contact-intro {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: left;
 }
 
 .contact-intro-txt {
     max-width: 810px;
     margin: 0px auto 0px; 
-    padding: 20px 25px; 
-    padding-top: 0px;
     text-align: left;
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -17,7 +15,7 @@
     line-height: 1.6;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
-    color: #E5E7EB;;
+    color: #E5E7EB;
 }
 
 .contact-info:hover {
@@ -123,7 +121,7 @@
 /* 🌐 Responsive Design */
 @media (max-width: 900px) {
 .contact-intro {
-    max-width: 95%;
+    max-width: 100%;
     min-width: 0;                
     display: block;               
     overflow-wrap: anywhere;     
@@ -144,6 +142,12 @@
     font-size: clamp(1.2rem, 5vw, 1.8rem); 
     text-align: center;           
     margin: 0.4em auto;
+    font-size: 28px;
+}
+
+.contact-intro-txt {
+   font-size: 16px;
+   text-align: left;
 }
 
 .contact-section {

@@ -33,4 +33,22 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+if (window.innerWidth > 1024) { 
+  const img = document.getElementById('scrollImage');
+  window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY;
+      img.style.transform = `translateY(${scrollY * 0.8}px)`;
+  });
+}
+
+function toggleDropdown() {
+    const dropdown = document.getElementById("dropdownMenu");
+    dropdown.classList.toggle("show");
+}
+
+window.addEventListener("click", function(e) {
+    if (!e.target.closest('.download-container')) {
+        document.getElementById("dropdownMenu").classList.remove("show");
+    }
+});
   

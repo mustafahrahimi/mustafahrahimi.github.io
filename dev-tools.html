@@ -1,69 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Development Tools</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/dev-tools.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Development Tools</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/dev-tools.css">
 </head>
+
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="nav-left">
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">Get to know me</a></li>
-                <li><a href="dev-tools.html">Development Tools</a></li>
-                <li><a href="contact.html">Get in touch</a></li>
-            </ul>
+  <header>
+    <nav class="navbar">
+      <div class="nav-left">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Get to know me</a></li>
+          <li><a href="dev-tools.html" class="active">Development Tools</a></li>
+          <li><a href="contact.html">Get in touch</a></li>
+        </ul>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/mustafah-rahimi-9976b3247/" target="_blank">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://discord.com/users/1427580809472114720" target="_blank">
+          <i class="fab fa-discord fa-lg"></i>
+        </a>
+        <a href="https://github.com/mustafahrahimi" target="_blank">
+          <i class="fab fa-github fa-lg"></i>
+        </a>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="dev-tools-container">
+        <h1>Curious about the tools I've used?</h1>
+        <p class="page-info">
+        Feel free to explore the technologies and tools I’ve worked with in projects and coursework. <br> Select a section to learn more, and visit my 
+        <a href="https://github.com/mustafahrahimi" class="link-story" target="_blank">GitHub</a> for code samples and demos.
+        </p>  
+
+
+        <div class="skills-layout">
+            <div class="skills-left">
+                <div class="skill-menu">
+                <div class="skill-section">
+                    <h2>Programming Languages</h2>
+                    <div class="button-group">
+                        <button class="skill-btn active" data-skill="c_cpp">C / C++</button>
+                        <button class="skill-btn" data-skill="python">Python</button>
+                        <button class="skill-btn" data-skill="java">Java</button>
+                        <button class="skill-btn" data-skill="csharp">C#</button>
+                        <button class="skill-btn" data-skill="kotlin">Kotlin</button>
+                        <button class="skill-btn" data-skill="sql">SQL</button>
+                        <button class="skill-btn" data-skill="matlab">MATLAB</button>
+                        <button class="skill-btn" data-skill="mips">MIPS Assembly</button>
+                    </div>
+                </div>
+                <div class="skill-section">
+                    <h2>Software & Web Development</h2>
+                    <div class="button-group">
+                        <button class="skill-btn" data-skill="web">HTML / CSS / JS</button>
+                        <button class="skill-btn" data-skill="winapps">Windows Apps</button>
+                        <button class="skill-btn" data-skill="android">Android</button>
+                    </div>
+                </div>
+                <div class="skill-section">
+                    <h2>DevOps & Tools</h2>
+                    <div class="button-group">
+                        <button class="skill-btn" data-skill="git">Git & GitHub</button>
+                        <button class="skill-btn" data-skill="cicd">CI / CD</button>
+                        <button class="skill-btn" data-skill="docker">Docker</button>
+                        <button class="skill-btn" data-skill="linux">Linux</button>
+                    </div>
+                </div>
+                <div class="skill-section">
+                     <h2>Other Competencies</h2>
+                    <div class="button-group">
+                        <button class="skill-btn" data-skill="networking">Computer Networking</button>
+                        <button class="skill-btn" data-skill="dns">DNS</button>
+                        <button class="skill-btn" data-skill="ml">AI/ML</button>
+                    </div>
+                </div>
+                </div>
             </div>
 
-            <div class="social-icons">
-            <a href="https://www.linkedin.com/in/mustafah-rahimi-9976b3247/" target="_blank">
-                <i class="fab fa-linkedin fa-lg"></i>
-            </a>
-            <a href="https://discord.com/users/1427580809472114720" target="_blank">
-                <i class="fab fa-discord fa-lg"></i>
-            </a>
-            <a href="https://github.com/mustafahrahimi" target="_blank">
-                <i class="fab fa-github fa-lg"></i>
-            </a>
-            </div>
-            <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="intro">
-            <div class="info">
-                <h1>
-                    Under Construction
-                </h1>
+            <div class="separator"></div>
+
+            <div class="skills-right">
+                <div id="skill-card" class="skill-card">
+                <h3>C / C++</h3>
                 <p>
-                    Development Tools Page Coming Soon...
+                    Proficient in <span style="font-style: italic;">C</span>, applied across multiple courses including <i>Data Structures & Algorithms</i>, 
+                    <i>Operating Systems</i>, <i>Embedded Systems</i>, and <i>Computer Engineering</i>; evolved from foundational 
+                    understanding of syntax and semantics to hands-on experience in data structures, memory management, unit testing,
+                    and embedded system programming. <br> <br>
+                    Building on this foundation, I started working with <i>C++</i> during my thesis at <i>Tietoevry</i>, where I implemented and optimized <i>LDPC codes</i> used 
+                    in 5G NR communication systems. The transition from C to C++ felt natural, allowing me to focus on performance optimization and efficient code 
+                    structure. 
                 </p>
-                <p>
-                    In the meantime, feel free to explore my
-                    <a class="link-story" href="https://github.com/mustafahrahimi" target="_blank">GitHub profile</a>.
-                </p>
+                </div>
             </div>
         </div>
-    </main>
-</body>
-<footer>
+    </div>
+</main>
+
+  <footer>
     <p>
-        <span style="font-size: 13px; color: #62BA1B; font-style: italic;">©</span> 
-        <span style="font-style: italic;">2025 mustafahrahimi</span> 
+      <span style="font-size: 13px; color: #62BA1B; font-style: italic;">©</span> 
+      <span style="font-style: italic;">2025 mustafahrahimi</span> 
     </p>
-</footer>
-<script src="js/header.js"></script>
-<script src="js/script.js"></script>
+  </footer>
+
+  <script src="js/header.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/dev-tools.js"></script>
+</body>
 </html>

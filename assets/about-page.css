@@ -11,8 +11,13 @@
     transform: scale(1.05) rotate(3deg);
 }
 
-@media (max-width: 600px) {
+@media (min-width: 1024px) { 
+  #scrollImage {
+      transition: transform 0.1s linear;
+  }
+}
 
+@media (max-width: 600px) {
 .about-photo img {
     width: 225px;
     height: 225px;

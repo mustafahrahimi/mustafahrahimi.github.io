@@ -45,13 +45,22 @@
             <div class="info">
                 <h1>Hi, I’m Mustafah</h1>
                 <p>Curious mind with a love for technology, learning, and creating solutions that make a difference.</p>
-                <p>Want to know more? Check out <br> my <a href="about.html" class="link-story">story</a> or grab my resume.</p>
-                <button class="download-btn" onclick="downloadResume()">
-                    Download Resumé 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
-                        <path d="M5 20h14v-2H5v2zm7-18v12l4-4h-3V4h-2v6H8l4 4z"/>
-                        </svg>
-                </button>
+                <p>Want to know more? Check out my <a href="about.html" class="link-story">story</a> or grab my Resumé.</p>
+
+                <div class="download-container">
+                    <button class="download-btn" onclick="toggleDropdown()">
+                        Download Resumé 
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown" id="dropdownMenu">
+                        <a href="resume-english.pdf" download>In English
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                        <a href="docs/CV (sw).pdf" download>In Swedish
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="photo">
                 <img src="/imgs/Profile.jpg" alt="Mustafah Rahimi">
@@ -63,7 +72,7 @@
                     </p>
                     <p style="margin-top: 15px;">For opportunities in</p>
                     </p>
-                    <p style="margin-top: 10px; font-style: italic;">Embedded | Web | Software Dev</p>
+                    <p class="open-to-posts" style="margin-top: 10px; font-style: italic;">Software Dev <span style="color: #62BA1B; font-style: normal;">|</span> Network Systems</p>
                 </div>
             </div>
         </div>
