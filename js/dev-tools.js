@@ -29,16 +29,16 @@ const skillData = {
   csharp: {
     title: "C# .NET",
     description: `
-      Proficient in <em>C# and .NET</em>, with a strong foundation in <em>object-oriented programming</em> built through prior experience in <em>Java</em> 
-      and <em>Python</em>.<br> As part of my degree, I took an elective in <em>C#</em> and <em>.NET</em> programming, where I developed applications of varying complexity and 
-      explored the <em>.NET architecture</em> in depth.
-      The coursework covered essential areas including <em>C# syntax</em>, <em>data types</em>, <em>exception handling</em>, and object-oriented principles 
-      such as <em>inheritance</em>, <em>interfaces</em>, and <em>polymorphism</em>.<br>
-      Building on this foundation, I worked on <em>desktop app development</em> for <em>Windows</em> using forms, controls, and the <em>Model-View-Controller (MVC)</em> pattern, 
-      along with <em>event handling</em>, <em>delegates</em>, <em>LINQ</em> for data access, and <em>REST API</em> integration. Currently exploring <em>ASP.NET</em> to broaden 
-      my web development experience. <br>
-      Take a look at <a class="link-story" href="https://github.com/mustafahrahimi/SellUP" target="_blank">SellUP</a> <i class="fa-solid fa-arrow-up-right-from-square"></i>, 
-      built with <em>C# .NET</em>.
+    Proficient in <em>C# and .NET</em>, with a strong foundation in <em>object-oriented programming</em> built through prior experience in <em>Java</em> 
+    and <em>Python</em>.<br> As part of my degree, I took an elective in <em>C#</em> and <em>.NET</em> programming, where I developed applications of varying complexity and 
+    explored the <em>.NET architecture</em> in depth.
+    The coursework covered essential areas including <em>C# syntax</em>, <em>data types</em>, <em>exception handling</em>, and object-oriented principles 
+    such as <em>inheritance</em>, <em>interfaces</em>, and <em>polymorphism</em>.<br>
+    Building on this foundation, I worked on <em>desktop app development</em> for <em>Windows</em> using forms, controls, and the <em>Model-View-Controller (MVC)</em> pattern, 
+    along with <em>event handling</em>, <em>delegates</em>, <em>LINQ</em> for data access, and <em>REST API</em> integration. Currently exploring <em>ASP.NET</em> to broaden 
+    my web development experience. <br>
+    Take a look at <a class="link-story" href="https://github.com/mustafahrahimi/SellUP" target="_blank">SellUP</a> <i class="fa-solid fa-arrow-up-right-from-square"></i>, 
+    built with <em>C# .NET</em>.
     `
   },
   python: {
