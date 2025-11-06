@@ -6,7 +6,7 @@ const skillData = {
       <i>Data Structures & Algorithms</i>, <i>Operating Systems</i>, <i>Embedded Systems</i>, and 
       <i>Computer Engineering</i>; evolved from foundational understanding of syntax and semantics to 
       hands-on experience in data structures, memory management, unit testing, and embedded system programming. 
-      <br><br>
+      <br>
       Building on this foundation, I started working with <i>C++</i> during my thesis at <i>Tietoevry</i>, 
       where I implemented and optimized <i>LDPC codes</i> used in 5G NR communication systems. The transition 
       from C to C++ felt natural, allowing me to focus on performance optimization and efficient code structure. 
@@ -33,7 +33,7 @@ const skillData = {
       and <em>Python</em>.<br> As part of my degree, I took an elective in <em>C#</em> and <em>.NET</em> programming, where I developed applications of varying complexity and 
       explored the <em>.NET architecture</em> in depth.
       The coursework covered essential areas including <em>C# syntax</em>, <em>data types</em>, <em>exception handling</em>, and object-oriented principles 
-      such as <em>inheritance</em>, <em>interfaces</em>, and <em>polymorphism</em>.<br><br>
+      such as <em>inheritance</em>, <em>interfaces</em>, and <em>polymorphism</em>.<br>
       Building on this foundation, I worked on <em>desktop app development</em> for <em>Windows</em> using forms, controls, and the <em>Model-View-Controller (MVC)</em> pattern, 
       along with <em>event handling</em>, <em>delegates</em>, <em>LINQ</em> for data access, and <em>REST API</em> integration. Currently exploring <em>ASP.NET</em> to broaden 
       my web development experience.
@@ -79,7 +79,7 @@ const skillData = {
     description: `
     I’ve always thought <em>MATLAB</em> was fascinating, seeing how widely it is used by <em>electrical</em> and other engineers. 
     I never imagined I would get the chance to use it during my studies—until my thesis at <em>Tietoevry</em>, where it became an essential 
-    tool. <br><br> During the project, one implementation of <em>LDPC codes</em> was done in <em>MATLAB</em>, taking advantage of its built-in tools 
+    tool. <br>During the project, one implementation of <em>LDPC codes</em> was done in <em>MATLAB</em>, taking advantage of its built-in tools 
     for testing and analyzing output data, which made validation and experimentation much more efficient. This experience gave me hands-on 
     exposure to MATLAB’s capabilities in <em>signal processing</em> and <em>algorithm testing</em> within a professional research context.
     `
@@ -90,7 +90,7 @@ const skillData = {
     I initially thought <em>C</em> was close to hardware and gave fine-grained control over <em>memory management</em> and <em>low-level operations</em>. 
     But that perspective changed during the <em>Datorsystemteknik</em> course, where I gained hands-on experience with <em>MIPS assembly</em>. I implemented 
     routines for <em>arithmetic operations</em>, <em>branching</em>, <em>loops</em>, and <em>memory access</em>, which illustrated how <em>CPU registers</em>, 
-    <em>instruction sets</em>, and <em>memory hierarchy</em> work together to execute programs. <br><br>
+    <em>instruction sets</em>, and <em>memory hierarchy</em> work together to execute programs. <br>
     We also studied the <em>MIPS processor architecture</em>, including its <em>RISC design</em>, <em>pipeline stages</em>, and <em>instruction formats</em>, 
     which clarified how high-level code translates into machine instructions. This experience strengthened my understanding of <em>low-level programming</em>, 
     <em>data representation</em>, <em>memory systems</em>, and <em>interrupt handling</em>, and made working with <em>C</em> more practical and intuitive.
@@ -116,25 +116,82 @@ const skillData = {
     <a class="link-story" href="https://github.com/mustafahrahimi/SellUP" target="_blank">here</a> <i class="fa-solid fa-arrow-up-right-from-square"></i>.
     `
   },
+  android: {
+    title: "Android Development",
+    description: `
+    Worked on the <em>Golden Years</em> Android app using <em>Kotlin</em> and <em>Jetpack Compose</em>, turning Figma prototypes into clean, responsive interface. 
+    Used <em>MVVM</em> architecture with <em>ViewModels</em> and <em>Coroutines</em> for smooth app performance and state management. Built connections to the backend 
+    for seamless data flow and gained experience in mobile app development, UI/UX design, and team collaboration. <br><br>
+    Take a look at our app, <em>Golden Years</em>, <a class="link-story" href="https://github.com/mustafahrahimi/DVGC22-G13" target="_blank">here</a> 
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>.
+    `
+  },
   git: {
     title: "Git & GitHub",
-    description: "I use Git for version control and collaboration in all projects, manage repositories on GitHub, and implement \
-    branching, merging, and pull request workflows."
+    description: `
+    Used <em>Git</em> and <em>GitHub</em> extensively since the first year of university, building a strong understanding of <em>version control</em> and <em>collaborative workflows</em>. 
+    Experienced in managing code changes, coordinating with team members, and handling both simple updates and more complex project integrations efficiently.
+    `
+  },
+  cicd: {
+    title: "CI/CD",
+    description: `
+    Have used <em>GitHub Actions</em> on multiple occasions to automate workflows, such as running unit tests, building project artifacts, 
+    and deploying updates to a staging environment. I am currently exploring <em>CI/CD</em> pipelines further to gain a deeper understanding and 
+    make more effective use of them in future projects.
+    `
   },
   docker: {
     title: "Docker",
-    description: "I built and ran Docker containers for isolated app environments, wrote Dockerfiles, \
-    and managed multi-container setups using Docker Compose."
+    description: `
+    Have experimented with <em>Docker</em> in personal projects, containerizing applications to test consistent environments and simplify setups. 
+    Planning to use it more extensively in upcoming projects to improve deployment efficiency and scalability.
+    `
   },
   linux: {
     title: "Linux",
-    description: "I work with Bash scripting, file system management, configuring network services, \
-    and using command-line tools for development and debugging."
+    description: `
+    Have used <em>Linux OS</em> and distributions like <em>Kali</em>, <em>Ubuntu</em>, and <em>Fedora</em> for testing, learning networking concepts, and exploring system features. 
+    Worked with <em>Bash scripting</em> to automate tasks such as setting up development environments, backing up files, and processing logs. <br>
+    Managed <em>file systems</em>, including permissions, process monitoring, and disk usage checks. Configured <em>network services</em> and 
+    regularly used command-line and network tools such as <em>grep</em>, <em>awk</em>, <em>curl</em>, <em>netstat</em>, <em>nmap</em>, and <em>tcpdump</em> for 
+    debugging, troubleshooting, and analyzing system and network behavior.
+    `
   },
-  agile: {
-    title: "Agile / Scrum",
-    description: "In team-based software projects, I participate in Scrum sprints with daily stand-ups, sprint reviews, \
-    and retrospectives, using tools like GitHub Projects and Trello for task tracking."
+  networking: {
+    title: "Computer Networking",
+    description: `
+      Have a good understanding of <em>computer networking concepts</em>, including <em>TCP/IP</em>, <em>subnets</em>, <em>VPNs</em>, and the structure of the Internet and 
+      its components. Worked with <em>network services</em>, <em>firewall configurations</em> using <em>iptables</em>, and tools like <em>Wireshark</em> for traffic analysis. Familiar with 
+      <em>socket programming</em>, functionality and protocols across the <em>TCP/IP stack</em>, and both wired and wireless local networks. <br>
+      Worked with <em>security concepts</em> and best practices, including <em>OWASP guidelines</em>, <em>access control</em>, <em>malware</em>, <em>encryption</em>, 
+      and <em>operating system security</em>. Knowledgeable in <em>cryptographic systems</em> using symmetric and asymmetric methods, along with common algorithms and protocols.  
+      Understand key security aspects such as <em>confidentiality</em>, <em>integrity</em>, <em>authentication</em>, <em>threats</em>, and <em>vulnerabilities</em>, and can reflect 
+      on related issues regarding <em>personal privacy</em>, ethics, and security challenges.
+    `
+  },
+    dns: {
+    title: "DNS",
+    description: `
+     In the <em>DNS</em> course, studied the purpose of <em>DNS (Domain Name System)</em> and the problems it solves. Learned key DNS concepts such as <em>records</em>, 
+     <em>zones</em>, <em>delegation</em>, <em>resolvers</em>, and the structure of a <em>domain namespace</em>. <br> Explored the <em>DNS protocol</em>, including packet 
+     structure, fields, and flags, as well as <em>DNSSEC</em> for signing DNS records and ensuring trust.
+     Worked with practical <em>DNS management</em> and troubleshooting, including installation, configuration, operation, and maintenance of <em>name servers</em>. 
+     Covered <em>internationalized domain names (IDN)</em> and current developments in DNS, such as <em>DNS Privacy</em>, to understand ongoing improvements in security 
+     and privacy.
+    `
+  },
+    ml: {
+    title: "Machine Learning",
+    description: `
+    Took a <em>Machine Learning</em> course in parallel with my thesis work, driven by my enthusiasm for <em>AI</em> and a forward-looking, optimistic approach. Covered fundamental ML 
+    terminology, principles, and theory, including concepts such as <em>learning</em>, <em>classification</em>, <em>cross-validation</em>, and <em>overfitting</em>, 
+    and explored classical ML algorithms like <em>linear classifiers</em>, <em>decision trees</em>, and <em>cluster analysis</em>. <br><br>
+    Studied <em>deep learning</em>, including <em>neural networks</em>, the <em>universal approximation theorem</em>, and <em>gradient descent optimization</em>. 
+    Applied these concepts hands-on using <em>Python</em> and popular libraries such as <em>NumPy</em>, <em>Pandas</em>, <em>Matplotlib</em>, <em>FastAI</em>, and 
+    <em>TensorFlow</em>, working with common types and models of <em>neural networks</em>, adapting and implementing existing models. Applied <em>evaluation metrics</em> 
+    to assess machine learning algorithms based on the structure and context of datasets.
+    `
   }
 };
 
