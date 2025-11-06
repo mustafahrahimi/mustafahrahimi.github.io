@@ -36,7 +36,9 @@ const skillData = {
       such as <em>inheritance</em>, <em>interfaces</em>, and <em>polymorphism</em>.<br>
       Building on this foundation, I worked on <em>desktop app development</em> for <em>Windows</em> using forms, controls, and the <em>Model-View-Controller (MVC)</em> pattern, 
       along with <em>event handling</em>, <em>delegates</em>, <em>LINQ</em> for data access, and <em>REST API</em> integration. Currently exploring <em>ASP.NET</em> to broaden 
-      my web development experience.
+      my web development experience. <br>
+      Take a look at <a class="link-story" href="https://github.com/mustafahrahimi/SellUP" target="_blank">SellUP</a> <i class="fa-solid fa-arrow-up-right-from-square"></i>, 
+      built with <em>C# .NET</em>.
     `
   },
   python: {
@@ -173,12 +175,12 @@ const skillData = {
     dns: {
     title: "DNS",
     description: `
-     In the <em>DNS</em> course, studied the purpose of <em>DNS (Domain Name System)</em> and the problems it solves. Learned key DNS concepts such as <em>records</em>, 
-     <em>zones</em>, <em>delegation</em>, <em>resolvers</em>, and the structure of a <em>domain namespace</em>. <br> Explored the <em>DNS protocol</em>, including packet 
-     structure, fields, and flags, as well as <em>DNSSEC</em> for signing DNS records and ensuring trust.
-     Worked with practical <em>DNS management</em> and troubleshooting, including installation, configuration, operation, and maintenance of <em>name servers</em>. 
-     Covered <em>internationalized domain names (IDN)</em> and current developments in DNS, such as <em>DNS Privacy</em>, to understand ongoing improvements in security 
-     and privacy.
+    Familiarity with <em>DNS</em> from earlier networking courses provided a foundation, which was expanded by taking a <em>DNS course</em> as an <em>elective course</em> 
+    alongside the thesis work. The course explored the purpose of <em>DNS</em>, key concepts such as <em>records</em>, <em>zones</em>, <em>delegation</em>, <em>resolvers</em>, 
+    and the <em>domain namespace</em>. It also covered the <em>DNS protocol</em> and <em>DNSSEC</em>, ensuring authentication and integrity through digital signatures. <br><br>
+    In addition to the theoretical aspects, the course included practical <em>DNS management</em> and troubleshooting, involving installation, configuration, and maintenance 
+    of <em>name servers</em>. Topics such as <em>internationalized domain names (IDNs)</em> and <em>DNS Privacy</em> were also discussed to highlight ongoing developments in 
+    security and confidentiality.
     `
   },
     ml: {
