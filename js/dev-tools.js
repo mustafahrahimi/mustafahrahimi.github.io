@@ -29,12 +29,12 @@ const skillData = {
   csharp: {
     title: "C# .NET",
     description: `
-    Proficient in <em>C# and .NET</em>, with a strong foundation in <em>object-oriented programming</em> built through prior experience in <em>Java</em> 
+    Proficient in <em>C#.NET</em>, with a strong foundation in <em>object-oriented programming</em> built through prior experience in <em>Java</em> 
     and <em>Python</em>.<br> As part of my degree, I took an elective in <em>C#</em> and <em>.NET</em> programming, where I developed applications of varying complexity and 
     explored the <em>.NET architecture</em> in depth.
-    The coursework covered essential areas including <em>C# syntax</em>, <em>data types</em>, <em>exception handling</em>, and object-oriented principles 
-    such as <em>inheritance</em>, <em>interfaces</em>, and <em>polymorphism</em>.<br>
-    Building on this foundation, I worked on <em>desktop app development</em> for <em>Windows</em> using forms, controls, and the <em>Model-View-Controller (MVC)</em> pattern, 
+    The coursework began with <em>C# syntax</em> and <em>data types</em>, advancing to topics including <em>object-oriented principles</em>, <em>design patterns</em>, <em>data access</em>, 
+    <em>asynchronous programming</em>, and <em>API integration</em>. <br>
+    Building on this foundation, I gained experience in developing <em>desktop applications</em> using forms, controls, and the <em>Model-View-Controller (MVC)</em> pattern, 
     along with <em>event handling</em>, <em>delegates</em>, <em>LINQ</em> for data access, and <em>REST API</em> integration. Currently exploring <em>ASP.NET</em> to broaden 
     my web development experience. <br>
     Take a look at <a class="link-story" href="https://github.com/mustafahrahimi/SellUP" target="_blank">SellUP</a> <i class="fa-solid fa-arrow-up-right-from-square"></i>, 
@@ -54,10 +54,9 @@ const skillData = {
   kotlin: {
     title: "Kotlin",
     description: `
-    In the <em>Software Engineering</em> course, I worked with a team of five people to build an <em>Android app</em> following the <em>AGILE framework</em> to manage iterative 
-    development and ensure timely delivery. We chose <em>Kotlin</em> as our main development language. I created <em>interactive prototypes in Figma</em> and implemented 
-    them in <em>Jetpack Compose</em> to build a clean, responsive frontend. I also developed an interface to connect the app with the backend, ensuring smooth data flow.<br><br> 
-    I used Kotlin features like <em>coroutines, data classes, and ViewModels</em> to make the app efficient and maintainable. 
+    Came across <em>Kotlin</em> in <em>Software Engineering</em> course, where I collaborated with a team of five people to build an <em>Android app</em> following the <em>AGILE framework</em> to manage iterative 
+    development and ensure timely delivery. <br> As the lead on <em>UI/UX</em>, I was primarily responsible for translating <em>interactive Figma prototypes</em> into a clean, responsive frontend using <em>Jetpack Compose</em>. 
+    I also developed the interface to integrate the app with the backend, ensuring smooth data flow, and leveraged Kotlin features like <em>coroutines, data classes, and ViewModels</em> to keep the app efficient and maintainable.
     This project gave me hands-on experience in <em>mobile app development, UI/UX design, and backend integration</em>, while collaborating closely 
     in a <em>team environment</em>. <br>
     Take a look at our app, <em>Golden Years</em>, <a class="link-story" href="https://github.com/mustafahrahimi/DVGC22-G13" target="_blank">here</a> 
@@ -121,33 +120,41 @@ const skillData = {
   android: {
     title: "Android Development",
     description: `
-    Worked on the <em>Golden Years</em> Android app using <em>Kotlin</em> and <em>Jetpack Compose</em>, turning Figma prototypes into clean, responsive interface. 
-    Used <em>MVVM</em> architecture with <em>ViewModels</em> and <em>Coroutines</em> for smooth app performance and state management. Built connections to the backend 
-    for seamless data flow and gained experience in mobile app development, UI/UX design, and team collaboration. <br><br>
-    Take a look at our app, <em>Golden Years</em>, <a class="link-story" href="https://github.com/mustafahrahimi/DVGC22-G13" target="_blank">here</a> 
-    <i class="fa-solid fa-arrow-up-right-from-square"></i>.
+    As a <em>UI/UX</em> and <em>frontend developer</em>, I collaborated on the <em>Golden Years</em> Android app using <em>Kotlin</em> and <em>Jetpack Compose</em>, 
+    translating Figma prototypes into a clean, responsive interface. I implemented the <em>MVVM</em> architecture with <em>ViewModels</em> and <em>Coroutines</em> 
+    to ensure smooth performance and effective state management, and built connections to the backend for seamless data flow. Through this project, I gained hands-on 
+    experience in <em>mobile app development</em>, <em>UI/UX design</em>, and <em>team collaboration</em>. <br>
+    Take a look at our app, <em>Golden Years</em>, <a class="link-story" href="https://github.com/mustafahrahimi/DVGC22-G13" target="_blank">here</a> <i class="fa-solid fa-arrow-up-right-from-square"></i>.
     `
   },
   git: {
     title: "Git & GitHub",
     description: `
-    Used <em>Git</em> and <em>GitHub</em> extensively since the first year of university, building a strong understanding of <em>version control</em> and <em>collaborative workflows</em>. 
+    Have used <em>Git</em> and <em>GitHub</em> extensively since the first year of university, building a strong understanding of <em>version control</em> and <em>collaborative workflows</em>. 
     Experienced in managing code changes, coordinating with team members, and handling both simple updates and more complex project integrations efficiently.
     `
   },
   cicd: {
     title: "CI/CD",
     description: `
-    Have used <em>GitHub Actions</em> on multiple occasions to automate workflows, such as running unit tests, building project artifacts, 
-    and deploying updates to a staging environment. I am currently exploring <em>CI/CD</em> pipelines further to gain a deeper understanding and 
-    make more effective use of them in future projects.
+    Currently building a deeper understanding of <em>CI/CD pipelines</em> using <em>GitHub Actions</em>. So far, I’ve focused on automating core parts of the 
+    development process — such as <em>running tests</em>, <em>building projects</em>, and setting up <em>basic continuous integration workflows</em>. <br>
+    For instance, I’ve used <em>GitHub Actions</em> to automatically run <em>unit tests</em> with tools like <em>pytest</em> or <em>npm test</em> whenever new 
+    code is pushed or a <em>pull request</em> is opened, helping catch issues early and maintain <em>code quality</em>. I’ve also set up simple <em>build steps</em>, 
+    such as running <em>npm run build</em> or packaging <em>Python applications</em>, to ensure the project compiles successfully before deployment.
+    I’m now exploring <em>full CI/CD pipelines</em> that automate <em>testing</em>, <em>building</em>, and <em>deploying code</em> to <em>staging environments</em>, 
+    while learning to improve workflows with <em>caching</em>, <em>matrix builds</em>, and <em>security scans</em>.
     `
   },
   docker: {
     title: "Docker",
     description: `
-    Have experimented with <em>Docker</em> in personal projects, containerizing applications to test consistent environments and simplify setups. 
-    Planning to use it more extensively in upcoming projects to improve deployment efficiency and scalability.
+    I originally learned about <em>dependency separation</em> using <em>Python virtual environments</em>, which allowed me to manage various project <em>dependencies</em> 
+    individually. During my <em>thesis work</em>, I began experimenting with <em>Docker</em>, taking <em>isolation</em> to the next level by <em>containerizing applications</em>
+     so they could run reliably across different machines. I created <em>images</em> with <em>docker build</em>, ran <em>containers</em> with <em>docker run</em>, and used 
+     <em>Docker Compose</em> to manage <em>multi-container setups</em> locally, such as an application running alongside a <em>database</em>. <br><br> This experience taught me how 
+     <em>Docker</em> extends isolation beyond <em>dependencies</em> to complete <em>applications</em>, and I’m now looking to deepen my understanding of <em>Docker</em> and 
+     explore <em>Kubernetes</em> for managing and scaling <em>containerized applications</em>.
     `
   },
   linux: {
@@ -155,7 +162,8 @@ const skillData = {
     description: `
     Have used <em>Linux OS</em> and distributions like <em>Kali</em>, <em>Ubuntu</em>, and <em>Fedora</em> for testing, learning networking concepts, and exploring system features. 
     Worked with <em>Bash scripting</em> to automate tasks such as setting up development environments, backing up files, and processing logs. <br>
-    Managed <em>file systems</em>, including permissions, process monitoring, and disk usage checks. Configured <em>network services</em> and 
+    Worked with the <em>Linux terminal</em> to manage <em>file systems</em>, monitor <em>processes</em>, connect to <em>remote computers</em>, track <em>system and 
+    storage usage</em>, and perform a range of other system administration tasks. <br><br> Configured <em>network services</em> and 
     regularly used command-line and network tools such as <em>grep</em>, <em>awk</em>, <em>curl</em>, <em>netstat</em>, <em>nmap</em>, and <em>tcpdump</em> for 
     debugging, troubleshooting, and analyzing system and network behavior.
     `
@@ -163,8 +171,9 @@ const skillData = {
   networking: {
     title: "Computer Networking",
     description: `
-      Have a good understanding of <em>computer networking concepts</em>, including <em>TCP/IP</em>, <em>subnets</em>, <em>VPNs</em>, and the structure of the Internet and 
-      its components. Worked with <em>network services</em>, <em>firewall configurations</em> using <em>iptables</em>, and tools like <em>Wireshark</em> for traffic analysis. Familiar with 
+      Have a strong understanding of <em>computer networking concepts</em>, including the <em>TCP/IP protocol suite</em>, <em>IP addressing & subnetting</em>, 
+      <em>routing & switching</em>, and the architecture and core components of the Internet.
+      Worked with <em>network services</em>, <em>firewall configurations</em> using <em>IPtables</em>, and tools like <em>Wireshark</em> for traffic analysis. Familiar with 
       <em>socket programming</em>, functionality and protocols across the <em>TCP/IP stack</em>, and both wired and wireless local networks. <br>
       Worked with <em>security concepts</em> and best practices, including <em>OWASP guidelines</em>, <em>access control</em>, <em>malware</em>, <em>encryption</em>, 
       and <em>operating system security</em>. Knowledgeable in <em>cryptographic systems</em> using symmetric and asymmetric methods, along with common algorithms and protocols.  
