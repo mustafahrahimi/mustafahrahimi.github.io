@@ -165,7 +165,7 @@ main {
 .info h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 800;
   margin-bottom: 20px;
   overflow: hidden;
   white-space: nowrap;
@@ -308,13 +308,24 @@ button {
     display: block;
 }
 
+.photo {
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
 .photo img {
-    width: 185px;
-    height: 185px;  
+    width: 210px;
+    height: 210px;  
     object-fit: cover;
-    border-radius: 50% 40% 50% 40%; 
-    border: 1.5px solid #62BA1B;
+    border-radius: 50% 50% 50% 50%; 
+    border: 0px solid #62BA1B;
     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.open-for-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .open-for-work p {
@@ -322,9 +333,15 @@ button {
     font-size: 15px;
 }
 
+.positions {
+    font-style: italic;
+    text-decoration: underline;
+}
+
 .open-button {
-    color: #62BA1B;
-    border: 1px solid #62BA1B;
+    color: #fff;
+    background-color: #62BA1B;
+    border: 2px solid #62BA1B;
     padding: 0.3rem 2rem;
     border-radius: 50px;
     font-weight: bold;
@@ -357,7 +374,7 @@ button {
 }
 
 .certificates h2 {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 20px;
 }
 
@@ -555,6 +572,7 @@ footer .fa-heart:hover {
 
 .info h1 {
     text-align: center;
+    padding: 0 50px;
 }
 
 .info p {
@@ -562,7 +580,8 @@ footer .fa-heart:hover {
     max-width: 450px;
     line-height: 1.8;
     margin: 0 auto 20px;
-    padding: 0 25px;
+    padding:  0px 50px;
+    text-align: left;
 }
 
 .download-btn {

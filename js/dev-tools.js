@@ -2,206 +2,239 @@ const skillData = {
   c_cpp: {
     title: "C / C++",
     description: `
-      Proficient in <span style="font-style: italic;">C</span>, applied across multiple courses including 
-      <i>Data Structures & Algorithms</i>, <i>Operating Systems</i>, <i>Embedded Systems</i>, and 
-      <i>Computer Engineering</i>; evolved from foundational understanding of syntax and semantics to 
-      hands-on experience in data structures, memory management, unit testing, and embedded system programming. 
-      <br>
-      Building on this foundation, I started working with <i>C++</i> during my thesis at <i>Tietoevry</i>, 
-      where I implemented and optimized <i>LDPC codes</i> used in 5G NR communication systems. The transition 
-      from C to C++ felt natural, allowing me to focus on performance optimization and efficient code structure. 
+      Proficient in <em>C</em>, applied throughout various courses such as <em>Data Structures & Algorithms</em>, <em>Operating Systems</em>, <em>Embedded Systems</em>, 
+      and <em>Computer Engineering</em>; advanced from a basic grasp of syntax and semantics to practical experience in data structures, memory management, unit testing, 
+      and programming for embedded systems. <br>
+      Building on this groundwork, I used <em>C++</em> during my thesis at <em>Tietoevry</em>, where I developed and 
+      fine-tuned <em>LDPC codes</em> used in <em>5G NR</em> communication systems. <br><br>
+      <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+      Pointers & Memory Management • Dynamic Data Structures • Bitwise Operations • Modular Program Design • Debugging (gdb/valgrind) • Build Systems (Make/CMake) 
+      • OOP (C++) • STL Containers • Performance Optimization • Embedded/Low-Level Programming • Third-Party Libraries
     `
   },
   java: {
     title: "Java",
     description: `
-      Building on my <em>OOP</em> experience with <em>Python</em>, I applied <em>Java</em> 
-      in my <em>Software Development Methodology</em> course by creating my first 
-      <a class="link-story" href="https://github.com/mustafahrahimi/Brickstorm" style="font-style: italic;" target="_blank">computer game</a>
-      <i class="fa-solid fa-arrow-up-right-from-square"></i>.<br>     
-      This project gave me hands-on experience with the full software development lifecycle.<br>
-      I worked extensively with <em>OOP concepts</em>, applying <em>abstraction</em> and <em>modular design</em> principles, 
-      and became familiar with essential data structures such as <em>lists</em>, <em>queues</em>, <em>stacks</em>, and <em>trees</em>.<br><br>
-      I also gained practical experience in <em>modeling, analysis, and testing</em> (including unit and end-user testing), preparing documentation, 
-      and consistently following good <em>software quality conventions</em> throughout the project.
+    Competent in <em>Java</em>, building on prior <em>OOP</em>  experience with <em>Python</em>, applied extensively in the <em>Software Development Methodology</em> course through the 
+    creation of a <em>Computer Game</em>. Gained hands-on experience across the full software development lifecycle, from design and implementation to testing and documentation. 
+    Applied object-oriented principles such as abstraction, modular design, and encapsulation, while working with core data structures including lists, queues, stacks, and trees. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    Object-Oriented Programming • Abstraction & Modular Design • Data Structures (Lists, Queues, Stacks, Trees) • Software Development Lifecycle • Modeling & Analysis 
+    • Unit & End-User Testing • Documentation & Software Quality • Debugging & Troubleshooting • Design Patterns • Project Planning & Implementation
     `
   },
   csharp: {
     title: "C# .NET",
     description: `
-    Proficient in <em>C#.NET</em>, with a strong foundation in <em>object-oriented programming</em> built through prior experience in <em>Java</em> 
-    and <em>Python</em>.<br> As part of my degree, I took an elective in <em>C#</em> and <em>.NET</em> programming, where I developed applications of varying complexity and 
-    explored the <em>.NET architecture</em> in depth.
-    The coursework began with <em>C# syntax</em> and <em>data types</em>, advancing to topics including <em>object-oriented principles</em>, <em>design patterns</em>, <em>data access</em>, 
-    <em>asynchronous programming</em>, and <em>API integration</em>. <br>
-    Building on this foundation, I gained experience in developing <em>desktop applications</em> using forms, controls, and the <em>Model-View-Controller (MVC)</em> pattern, 
-    along with <em>event handling</em>, <em>delegates</em>, <em>LINQ</em> for data access, and <em>REST API</em> integration. Currently exploring <em>ASP.NET</em> to broaden 
-    my web development experience. <br>
-    Take a look at <a class="link-story" href="https://github.com/mustafahrahimi/SellUP" target="_blank">SellUP</a> <i class="fa-solid fa-arrow-up-right-from-square"></i>, 
-    built with <em>C# .NET</em>.
+    Proficient in <em>C#.NET</em>, building on prior object-oriented programming experience in <em>Java</em> and <em>Python</em>. Gained practical experience through a 
+    university elective in <em>C#</em> and <em>.NET</em> programming, developing applications of varying complexity and exploring the <em>.NET</em> architecture in depth. 
+    Progressed from core syntax and data types to advanced topics including OOP principles, design patterns, data access, asynchronous programming, and API integration. 
+    Applied this knowledge to develop desktop applications using forms, controls, and the <em>Model-View-Controller (MVC)</em> pattern, while working with event handling, 
+    delegates, <em>LINQ</em>, and <em>REST APIs</em>. Currently expanding skills in <em>ASP.NET</em> for web development. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    Object-Oriented Programming • Design Patterns • MVC Architecture • Event Handling & Delegates • <em>LINQ</em> & Data Access • Asynchronous Programming • 
+    <em>REST API</em> Integration • Windows Forms • <em>ASP.NET</em> Web Development
     `
   },
   python: {
     title: "Python",
     description: `
-    I was first introduced to <em>Python</em> in high school, where it became the first programming language I used to write code and understand fundamental 
-    programming concepts. <br> Later, during my university studies, I revisited <em>Python</em> across multiple courses, including <em>Introduction to Data Processing</em>, 
-    <em>Operating Systems</em>, and <em>Applied Machine Learning</em> — using it to write automation scripts for 
-    data preprocessing, analyze datasets using libraries such as <em>NumPy</em> and <em>Pandas</em>, simulate operating system concepts (mainly scheduling & memory management), 
-    and build and train machine learning models with frameworks like <em>scikit-learn</em>, <em>TensorFlow</em>, and <em>Fastai</em>.
+    Competent in <em>Python</em>, first introduced in high school as an entry point to programming and fundamental concepts, later deepened through university courses 
+    such as <em>Introduction to Data Processing</em>, <em>Operating Systems</em>, and <em>Applied Machine Learning</em>; applied Python for a variety of tasks, including automation, 
+    data analysis, simulation, and machine learning, gaining hands-on experience with both scripting and scientific computing. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    Automation & Scripting • Data Analysis (NumPy, Pandas) • Simulation of OS Concepts • Machine Learning (scikit-learn, TensorFlow, Fastai) • Data Preprocessing & Pipeline Design 
+    • Object-Oriented & Functional Programming • Performance Optimization • Debugging & Testing • Visualization (Matplotlib, Seaborn) • Modular Program Design
     `
   },
   kotlin: {
     title: "Kotlin",
     description: `
-    Came across <em>Kotlin</em> in <em>Software Engineering</em> course, where I collaborated with a team of five people to build an <em>Android app</em> following the <em>AGILE framework</em> to manage iterative 
-    development and ensure timely delivery. <br> As the lead on <em>UI/UX</em>, I was primarily responsible for translating <em>interactive Figma prototypes</em> into a clean, responsive frontend using <em>Jetpack Compose</em>. 
-    I also developed the interface to integrate the app with the backend, ensuring smooth data flow, and leveraged Kotlin features like <em>coroutines, data classes, and ViewModels</em> to keep the app efficient and maintainable.
-    This project gave me hands-on experience in <em>mobile app development, UI/UX design, and backend integration</em>, while collaborating closely 
-    in a <em>team environment</em>. <br>
-    Take a look at our app, <em>Golden Years</em>, <a class="link-story" href="https://github.com/mustafahrahimi/DVGC22-G13" target="_blank">here</a> 
-    <i class="fa-solid fa-arrow-up-right-from-square"></i>.
+    Competent in <em>Kotlin</em>, applied during a <em>Software Engineering</em> course to develop an <em>Android</em> application as part of a five-person team following 
+    the <em>AGILE</em> framework. Served as the lead on <em>UI/UX</em>, translating interactive <em>Figma</em> prototypes into a clean, responsive frontend using <em>Jetpack 
+    Compose</em>, while integrating the interface with the backend to ensure smooth data flow. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    <em>Android</em> Development • <em>Jetpack Compose</em> • <em>UI/UX</em> Design & Implementation • Backend Integration • <em>Kotlin</em> Coroutines & <em>ViewModels</em> 
+    • Data Classes & Object-Oriented Programming • <em>AGILE</em> Methodologies • Responsive & Maintainable Code • Team Collaboration • Mobile App Lifecycle
   `
   },
   sql: {
     title: "SQL",
     description: `
-    We’ve all used databases without realizing it, but during the <em>Database Technology</em> course, I got to explore what goes on 
-    behind the scenes. I learned the principles and usage of <em>general database management systems (DBMS)</em> and studied <em>database architecture</em>. 
-    I became proficient in the <em>relational data model</em>, including <em>data structures</em>, <em>relational algebra</em>, and <em>data integrity</em>, 
-    and gained hands-on experience with <em>SQL</em> to query, manage, and manipulate data.<br><br>
-    The course also covered <em>database design techniques</em> like <em>E/R modeling</em>, <em>functional dependencies</em>, and <em>normalization</em>, 
-    as well as <em>storage structures</em> such as <em>indexing</em> and <em>transaction management</em>. I was also introduced to other database types, 
-    including <em>distributed</em> and <em>web-based databases</em>, giving me a well-rounded understanding of modern data management.
+    Competent in <em>SQL</em> and relational database management, developed through the <em>Database Technology</em> course. Gained a solid understanding of <em>DBMS</em> 
+    principles, database architecture, and the relational data model, including data structures, relational algebra, and data integrity. Applied <em>SQL</em> extensively 
+    to query, manage, and manipulate data, while gaining hands-on experience with database design techniques such as <em>E/R modeling</em>, functional dependencies, and 
+    normalization. Explored storage structures, indexing, transaction management, and was introduced to distributed and web-based databases, building a comprehensive 
+    understanding of modern data management. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    Relational Databases • <em>SQL</em> Querying & Data Manipulation • Database Design (<em>E/R Modeling</em>, Normalization) • Data Integrity & Constraints 
+    • Relational Algebra • Indexing & Transaction Management • Distributed & Web-Based Databases • Storage Structures • Performance Optimization • Data Modeling & Analysis
     `
   },
   matlab: {
     title: "MATLAB",
     description: `
-    I’ve always thought <em>MATLAB</em> was fascinating, seeing how widely it is used by <em>electrical</em> and other engineers. 
-    I never imagined I would get the chance to use it during my studies—until my thesis at <em>Tietoevry</em>, where it became an essential 
-    tool. <br>During the project, one implementation of <em>LDPC codes</em> was done in <em>MATLAB</em>, taking advantage of its built-in tools 
-    for testing and analyzing output data, which made validation and experimentation much more efficient. This experience gave me hands-on 
-    exposure to MATLAB’s capabilities in <em>signal processing</em> and <em>algorithm testing</em> within a professional research context.
+    Competent in <em>MATLAB</em>, applied extensively during my thesis at <em>Tietoevry</em> as an essential tool for implementing and testing <em>LDPC codes</em>. 
+    Leveraged <em>MATLAB</em>’s built-in capabilities for data analysis, visualization, and validation, enabling efficient experimentation and performance evaluation. 
+    Gained hands-on experience in signal processing, algorithm development, and testing within a professional research context, applying <em>MATLAB</em> to solve complex 
+    engineering problems. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    Signal Processing • Algorithm Implementation & Testing • Data Analysis & Visualization • <em>LDPC Codes</em> • Simulation & Validation 
+    • Experimentation & Performance Evaluation • Professional Research Applications • <em>MATLAB</em> Built-In Functions • Numerical Computation • Scientific Programming
     `
   },
   mips: {
     title: "MIPS Assembly",
     description: `
-    I initially thought <em>C</em> was close to hardware and gave fine-grained control over <em>memory management</em> and <em>low-level operations</em>. 
-    But that perspective changed during the <em>Datorsystemteknik</em> course, where I gained hands-on experience with <em>MIPS assembly</em>. I implemented 
-    routines for <em>arithmetic operations</em>, <em>branching</em>, <em>loops</em>, and <em>memory access</em>, which illustrated how <em>CPU registers</em>, 
-    <em>instruction sets</em>, and <em>memory hierarchy</em> work together to execute programs. <br>
-    We also studied the <em>MIPS processor architecture</em>, including its <em>RISC design</em>, <em>pipeline stages</em>, and <em>instruction formats</em>, 
-    which clarified how high-level code translates into machine instructions. This experience strengthened my understanding of <em>low-level programming</em>, 
-    <em>data representation</em>, <em>memory systems</em>, and <em>interrupt handling</em>, and made working with <em>C</em> more practical and intuitive.
+    Competent in <em>MIPS Assembly</em>, applied during the <em>Datorsystemteknik</em> course to gain hands-on experience with low-level programming and <em>CPU</em>
+    architecture. Implemented routines for arithmetic operations, branching, loops, and memory access, gaining practical insight into how <em>CPU</em> registers, instruction 
+    sets, and memory hierarchy collaborate to execute programs. Studied <em>MIPS</em> processor architecture, including <em>RISC</em> design, pipeline stages, and instruction
+    formats, deepening understanding of how high-level code translates into machine instructions. Strengthened skills in data representation, memory systems, interrupt handling, 
+    and low-level program optimization. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    Low-Level Programming • <em>MIPS</em> Instruction Set • <em>CPU</em> Architecture & <em>RISC</em> Design • Pipeline Stages & Instruction Formats • Arithmetic & Logic Operations 
+    • Branching & Loops • Memory Access & Management • Data Representation • Interrupt Handling • Program Optimization
     `
   },
   web: {
     title: "HTML, CSS & JavaScript",
     description: `
-    I first encountered <em>web development</em> in high school, where I took my first <em>HTML, CSS, and JavaScript</em> course. It was a unique experience 
-    because I could literally run the code and see the output live on my local server — a completely different experience compared to <em>Python</em>, where I 
-    mostly worked in the terminal. <br><br> Later, during university, I naturally returned to this stack whenever I needed a <em>web interface</em> for my projects.  
-    Recently, in <em>oct 2025</em>, I felt the need to create a <em>personal website</em> to complement my CV, and once again I jumped into this stack 
-    to build what you are seeing now. I hope this won’t be the last time I use this stack, as I really enjoy working with it.  
+    Competent in <em>HTML</em>, <em>CSS</em>, and <em>JavaScript</em>, first introduced in high school as an entry point to web development, Loved it as it provided immediate visual 
+    feedback. Continued applying this stack during university projects whenever a web interface was required, and most 
+    recently used it to develop my personal website. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    Front-End Development • Responsive Design <br> • Semantic <em>HTML5</em> • <em>CSS3</em> • <em>JavaScript (ES6+)</em> 
     `
   },
   winapps: {
     title: "Windows Applications",
     description: `
-    I began exploring desktop application development with <em>Python’s Tkinter</em> library during high school, but later shifted to <em>Windows Forms</em> 
-    and <em>WPF</em> in <em>C#.NET</em>, as it allowed me to build more robust and feature-rich desktop applications. <br> I am particularly proficient in <em>Windows 
-    Forms</em>, having used it extensively to create responsive and maintainable user interfaces through <em>form controls</em>, <em>user controls</em>, 
-    <em>event-driven programming</em>, <em>data binding</em>, and <em>layout management</em>. <br><br> Take a look at <em>SellUP</em>, my latest desktop application, 
-    <a class="link-story" href="https://github.com/mustafahrahimi/SellUP" target="_blank">here</a> <i class="fa-solid fa-arrow-up-right-from-square"></i>.
+    Proficient in <em>Windows</em> desktop application development, initially started with <em>Python</em>’s <em>Tkinter</em> and later migrated to <em>Windows Forms</em> 
+    and <em>WPF</em> in <em>C#.NET</em>. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    <em>Windows Forms</em> • <em>WPF</em> • Form & User Controls • Data Binding • Layout Management
     `
   },
   android: {
     title: "Android Development",
     description: `
-    As a <em>UI/UX</em> and <em>frontend developer</em>, I collaborated on the <em>Golden Years</em> Android app using <em>Kotlin</em> and <em>Jetpack Compose</em>, 
-    translating Figma prototypes into a clean, responsive interface. I implemented the <em>MVVM</em> architecture with <em>ViewModels</em> and <em>Coroutines</em> 
-    to ensure smooth performance and effective state management, and built connections to the backend for seamless data flow. Through this project, I gained hands-on 
-    experience in <em>mobile app development</em>, <em>UI/UX design</em>, and <em>team collaboration</em>. <br>
-    Take a look at our app, <em>Golden Years</em>, <a class="link-story" href="https://github.com/mustafahrahimi/DVGC22-G13" target="_blank">here</a> <i class="fa-solid fa-arrow-up-right-from-square"></i>.
+    Familiar with <em>Android</em> app development, applied during the <em>Golden Years</em> project using <em>Kotlin</em> and <em>Jetpack Compose</em>. 
+    Translated <em>Figma</em> prototypes into responsive interfaces, implemented <em>MVVM</em> architecture with <em>ViewModels</em> and <em>Coroutines</em> 
+    for efficient state management, and integrated backend data for seamless performance. Gained hands-on experience in mobile development, <em>UI/UX</em> design, 
+    and collaborative team workflows. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    <em>Kotlin</em> • <em>Jetpack Compose</em> • <em>MVVM</em> Architecture • <em>ViewModels</em> & <em>Coroutines</em> • <em>UI/UX</em> Implementation 
+    • Backend Integration • Mobile App Lifecycle • Responsive Interfaces • State Management • Team Collaboration
     `
   },
   git: {
     title: "Git & GitHub",
     description: `
-    Have used <em>Git</em> and <em>GitHub</em> extensively since the first year of university, building a strong understanding of <em>version control</em> and <em>collaborative workflows</em>. 
-    Experienced in managing code changes, coordinating with team members, and handling both simple updates and more complex project integrations efficiently.
+    Proficient in <em>Git</em> and <em>GitHub</em>, with extensive experience since the first year of university. Skilled in version control, managing code changes, 
+    coordinating with team members, and handling updates and project integrations. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    Version Control • Branching & Merging • <em>Git</em> Workflows (Feature, GitFlow) • Pull Requests & Code Reviews • Conflict Resolution • Repository Management 
+    • Collaborative Development • Commit History & Reverting • CI/CD Integration • Project Collaboration
     `
   },
   cicd: {
     title: "CI/CD",
     description: `
-    Currently building a deeper understanding of <em>CI/CD pipelines</em> using <em>GitHub Actions</em>. So far, I’ve focused on automating core parts of the 
-    development process — such as <em>running tests</em>, <em>building projects</em>, and setting up <em>basic continuous integration workflows</em>. <br>
-    For instance, I’ve used <em>GitHub Actions</em> to automatically run <em>unit tests</em> with tools like <em>pytest</em> or <em>npm test</em> whenever new 
-    code is pushed or a <em>pull request</em> is opened, helping catch issues early and maintain <em>code quality</em>. I’ve also set up simple <em>build steps</em>, 
-    such as running <em>npm run build</em> or packaging <em>Python applications</em>, to ensure the project compiles successfully before deployment.
-    I’m now exploring <em>full CI/CD pipelines</em> that automate <em>testing</em>, <em>building</em>, and <em>deploying code</em> to <em>staging environments</em>, 
-    while learning to improve workflows with <em>caching</em>, <em>matrix builds</em>, and <em>security scans</em>.
+    Familiar with <em>CI/CD</em> practices, currently building expertise with <em>GitHub Actions</em> to automate key parts of the development process. Familiar with
+    setting up workflows to run unit tests, build projects, and perform preliminary integration steps. Actively 
+    exploring full <em>CI/CD</em> pipelines for automated testing, building, and deployment, while optimizing workflows with caching, matrix builds, and security checks. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    Continuous Integration & Deployment • <em>GitHub Actions</em> • Automated Testing (<em>pytest</em>, <em>npm test</em>) • Build Automation • Workflow Optimization 
+    • Caching & Matrix Builds (Exploring)
     `
   },
   docker: {
     title: "Docker",
     description: `
-    I originally learned about <em>dependency separation</em> using <em>Python virtual environments</em>, which allowed me to manage various project <em>dependencies</em> 
-    individually. During my <em>thesis work</em>, I began experimenting with <em>Docker</em>, taking <em>isolation</em> to the next level by <em>containerizing applications</em>
-     so they could run reliably across different machines. I created <em>images</em> with <em>docker build</em>, ran <em>containers</em> with <em>docker run</em>, and used 
-     <em>Docker Compose</em> to manage <em>multi-container setups</em> locally, such as an application running alongside a <em>database</em>. <br><br> This experience taught me how 
-     <em>Docker</em> extends isolation beyond <em>dependencies</em> to complete <em>applications</em>, and I’m now looking to deepen my understanding of <em>Docker</em> and 
-     explore <em>Kubernetes</em> for managing and scaling <em>containerized applications</em>.
+    Familiar with <em>Docker</em>, with hands-on experience containerizing applications to ensure consistent and reliable execution across environments. 
+    Built and managed <em>Docker</em> images and containers using <em>docker build</em> and <em>docker run</em>, and used <em>Docker Compose</em> to orchestrate 
+    multi-container setups, such as pairing applications with databases during development. This experience expanded on earlier dependency management skills gained 
+    through <em>Python</em> virtual environments and developed a deeper understanding of application-level isolation. Currently exploring <em>Kubernetes</em> to 
+    further enhance container orchestration and scalability. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    Containerization • <em>Docker</em> Images & Containers • <em>Docker Compose</em> • Dependency & Environment Isolation • Multi-Container Setups 
+    • Application Packaging • <em>Kubernetes</em> (Exploring)
     `
   },
   linux: {
     title: "Linux",
     description: `
-    Have used <em>Linux OS</em> and distributions like <em>Kali</em>, <em>Ubuntu</em>, and <em>Fedora</em> for testing, learning networking concepts, and exploring system features. 
-    Worked with <em>Bash scripting</em> to automate tasks such as setting up development environments, backing up files, and processing logs. <br>
-    Worked with the <em>Linux terminal</em> to manage <em>file systems</em>, monitor <em>processes</em>, connect to <em>remote computers</em>, track <em>system and 
-    storage usage</em>, and perform a range of other system administration tasks. <br><br> Configured <em>network services</em> and 
-    regularly used command-line and network tools such as <em>grep</em>, <em>awk</em>, <em>curl</em>, <em>netstat</em>, <em>nmap</em>, and <em>tcpdump</em> for 
-    debugging, troubleshooting, and analyzing system and network behavior.
+    Competent in <em>Linux</em>, with hands-on experience using distributions such as <em>Kali</em>, <em>Ubuntu</em>, and <em>Fedora</em> for development, 
+    testing, and system exploration. Familiar with using <em>Bash</em> scripting to automate tasks like environment setup, backups, and log processing. Worked 
+    extensively with the <em>Linux</em> terminal to manage file systems, monitor processes, connect to remote systems, and perform a range of system administration 
+    tasks. Configured network services and used tools like <em>grep</em>, <em>awk</em>, <em>curl</em>, <em>netstat</em>, <em>nmap</em>, and <em>tcpdump</em> for debugging, 
+    troubleshooting, and network analysis. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    <em>Linux</em> Distributions (<em>Kali</em>, <em>Ubuntu</em>, <em>Fedora</em>) • <em>Bash</em> Scripting • Terminal & CLI Tools • File System Management 
+    • Process Monitoring • Remote System Access • Network Configuration • System Administration • Command-Line Tools (<em>grep</em>, <em>awk</em>, <em>curl</em>, 
+    <em>netstat</em>) • Network Analysis (<em>nmap</em>, <em>tcpdump</em>)
     `
   },
   networking: {
     title: "Computer Networking",
     description: `
-      Have a strong understanding of <em>computer networking concepts</em>, including the <em>TCP/IP protocol suite</em>, <em>IP addressing & subnetting</em>, 
-      <em>routing & switching</em>, and the architecture and core components of the Internet.
-      Worked with <em>network services</em>, <em>firewall configurations</em> using <em>IPtables</em>, and tools like <em>Wireshark</em> for traffic analysis. Familiar with 
-      <em>socket programming</em>, functionality and protocols across the <em>TCP/IP stack</em>, and both wired and wireless local networks. <br>
-      Worked with <em>security concepts</em> and best practices, including <em>OWASP guidelines</em>, <em>access control</em>, <em>malware</em>, <em>encryption</em>, 
-      and <em>operating system security</em>. Knowledgeable in <em>cryptographic systems</em> using symmetric and asymmetric methods, along with common algorithms and protocols.  
-      Understand key security aspects such as <em>confidentiality</em>, <em>integrity</em>, <em>authentication</em>, <em>threats</em>, and <em>vulnerabilities</em>, and can reflect 
-      on related issues regarding <em>personal privacy</em>, ethics, and security challenges.
+    Strong understanding of computer networking principles, including <em>TCP/IP</em> architecture, <em>IP</em> addressing and subnetting, routing, switching, 
+    and core Internet protocols. Hands-on experience with network services and security tools, including firewall configuration using <em>iptables</em> and traffic 
+    analysis with <em>Wireshark</em>. Familiar with socket programming and protocols across the <em>TCP/IP</em> stack, applied in both wired and wireless network environments. 
+    Knowledgeable in cybersecurity concepts and best practices, including <em>OWASP</em> guidelines, access control, malware, encryption, and operating system security. 
+    Experienced in symmetric and asymmetric cryptography, with insight into security principles such as confidentiality, integrity, authentication, and ethical implications 
+    surrounding privacy and vulnerabilities. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    <em>TCP/IP</em> Protocol Suite • <em>IP</em> Addressing & Subnetting • Routing & Switching • <em>Wireshark</em> & Packet Analysis 
+    • Firewall Configuration (<em>iptables</em>) • Socket Programming • Cryptography (Symmetric & Asymmetric) 
+    • <em>OWASP</em> • Threats, Vulnerabilities & Privacy Considerations
     `
   },
     dns: {
     title: "DNS",
     description: `
-    Familiarity with <em>DNS</em> from earlier networking courses provided a foundation, which was expanded by taking a <em>DNS course</em> as an <em>elective course</em> 
-    alongside the thesis work. The course explored the purpose of <em>DNS</em>, key concepts such as <em>records</em>, <em>zones</em>, <em>delegation</em>, <em>resolvers</em>, 
-    and the <em>domain namespace</em>. It also covered the <em>DNS protocol</em> and <em>DNSSEC</em>, ensuring authentication and integrity through digital signatures. <br><br>
-    In addition to the theoretical aspects, the course included practical <em>DNS management</em> and troubleshooting, involving installation, configuration, and maintenance 
-    of <em>name servers</em>. Topics such as <em>internationalized domain names (IDNs)</em> and <em>DNS Privacy</em> were also discussed to highlight ongoing developments in 
-    security and confidentiality.
+    Familiar with <em>DNS</em> through foundational networking courses and expanded this knowledge with a dedicated elective <em>DNS</em> course in my final year. 
+    Developed a solid understanding of core <em>DNS</em> concepts including domain namespaces, records, zones, delegation, and resolvers. Studied the <em>DNS</em> 
+    protocol and <em>DNSSEC</em> to understand mechanisms for authentication and integrity using digital signatures. Gained practical experience in managing and 
+    troubleshooting <em>DNS</em> infrastructure through installation, configuration, and maintenance of name servers. Also explored emerging topics such as 
+    internationalized domain names (<em>IDNs</em>) and <em>DNS Privacy</em> to stay current with developments in security and confidentiality. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    <em>DNS</em> Architecture • Records, Zones & Delegation • <em>DNSSEC</em> & Digital Signatures • Name Server Configuration • Resolver Behavior 
+    • <em>DNS</em> Protocol Analysis • <em>DNS</em> Management & Troubleshooting • Internationalized Domain Names (<em>IDNs</em>) • <em>DNS Privacy</em> & Security 
+    • Infrastructure Maintenance
     `
   },
     ml: {
     title: "Machine Learning",
     description: `
-    Took a <em>Machine Learning</em> course in parallel with my thesis work, driven by my enthusiasm for <em>AI</em> and a forward-looking, optimistic approach. Covered fundamental ML 
-    terminology, principles, and theory, including concepts such as <em>learning</em>, <em>classification</em>, <em>cross-validation</em>, and <em>overfitting</em>, 
-    and explored classical ML algorithms like <em>linear classifiers</em>, <em>decision trees</em>, and <em>cluster analysis</em>. <br><br>
-    Studied <em>deep learning</em>, including <em>neural networks</em>, the <em>universal approximation theorem</em>, and <em>gradient descent optimization</em>. 
-    Applied these concepts hands-on using <em>Python</em> and popular libraries such as <em>NumPy</em>, <em>Pandas</em>, <em>Matplotlib</em>, <em>FastAI</em>, and 
-    <em>TensorFlow</em>, working with common types and models of <em>neural networks</em>, adapting and implementing existing models. Applied <em>evaluation metrics</em> 
-    to assess machine learning algorithms based on the structure and context of datasets.
+    Practical experience in <em>Machine Learning</em> through a final-year elective on <em>Applied Machine Learning</em>. Developed a solid foundation in <em>ML</em> principles, 
+    terminology, and classical algorithms including <em>linear classifiers</em>, <em>decision trees</em>, and <em>clustering</em>. Studied deep learning, including neural networks, the universal approximation theorem, and gradient descent optimization. Applied 
+    these concepts hands-on using <em>Python</em> with libraries such as <em>NumPy</em>, <em>Pandas</em>, <em>Matplotlib</em>, <em>FastAI</em>, and <em>TensorFlow</em>, 
+    adapting and implementing models, and evaluating algorithm performance using appropriate metrics. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    Supervised & Unsupervised Learning • Neural Networks & Deep Learning • Gradient Descent Optimization • Model Evaluation & Metrics • <em>Python</em> for ML (<em>NumPy</em>, 
+    <em>Pandas</em>, <em>Matplotlib</em>) • <em>TensorFlow</em> & <em>FastAI</em> • Data Preprocessing & Feature Engineering • Classification & Clustering Algorithms 
+    • Cross-Validation & Overfitting Management • Model Adaptation & Implementation
+    `
+  },
+  circuit: {
+    title: "Circuit Analysis",
+    description: `
+    Familiar with fundamental circuit concepts, passive components (<em>R</em>, <em>L</em>, <em>C</em>, transformers), and circuit analysis techniques 
+    including <em>Ohm’s Law</em>, <em>Kirchhoff’s Laws</em>, nodal/mesh analysis, AC circuits, resonance, and capacitor charging/discharging. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    <em>Ohm’s & Kirchhoff’s Laws</em> • Nodal & Mesh Analysis • AC Circuits & Phasors • Resonance • <em>R, L, C</em> Components • Transformers • Power & Impedance
+    `
+  }, 
+  digital: {
+    title: "Digital Electronics",
+    description: `
+    Familiar with digital circuit design and analysis, including digital logic families, combinational and sequential circuits, <em>Karnaugh Maps</em>, latches and flip-flops,
+     synchronous/asynchronous and iterative sequential networks, semiconductor memories, <em>ADC</em>/<em>DAC</em> conversion, sampling and sample-and-hold circuits, and 
+     microcontrollers. <br><br>
+    <span style="font-size: 1.2em; font-weight: bold;">Expertise:</span> <br>
+    Digital Logic Families • Combinational & Sequential Circuits • <em>Karnaugh Maps</em> • Latches & Flip-Flops • Synchronous & Asynchronous Networks 
+    • Semiconductor Memories • <em>ADC</em> & <em>DAC</em> • Sampling & Sample-and-Hold • Microcontrollers
     `
   }
 };
